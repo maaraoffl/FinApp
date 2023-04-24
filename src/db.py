@@ -3,7 +3,7 @@ from typing import Tuple
 from datetime import datetime
 
 DB_NAME = 'finapp'
-conn = mysql.connector.connect(host="localhost", user='root', password='new_password', database=DB_NAME)
+conn = mysql.connector.connect(host="localhost", user='REPLACE USER', password='REPLACE_PASSWORD', database=DB_NAME)
 
 def create_table():
     sql = f"""
